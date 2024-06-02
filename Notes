@@ -1,0 +1,44 @@
+Important Notes on Git taken on Git Session 2 by Shannee Sir
+
+Definition: Git is a version control system used for tracking changes in files.
+
+Types of Version Control Systems:
+
+Local: Simplest form, tracks changes in files.
+Centralized: Single server holds versioned files, clients check out from it.
+Distributed: Clients mirror repository with full history, enabling restoration if server fails.
+
+History of Git:
+Born in 2005 after Linux community's fallout with BitKeeper.
+
+Git States:
+Modified: Changed but not committed.
+Staged: Marked for next commit.
+Committed: Changes stored permanently.
+
+Basic Workflow:
+Modify files, stage changes, commit snapshots.
+
+Key Commands:
+git add, git commit, git clone.
+
+Useful Commands:
+git status, git diff, git log.
+
+Branching:
+Allows parallel development, merging combines changes.
+
+Merge Conflicts:
+Occur when conflicting changes made in different branches on same file.
+
+Pushing Changes to GitHub:
+Use git remote add origin, git push.
+
+Pulling Updates:
+git pull fetches and merges changes from remote repository.
+
+Forking:
+Creates copy of repository, useful for contributions or starting new projects.
+
+Generating Tokens:
+Personal access tokens required for repository access.
